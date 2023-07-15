@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <div className="max-w-7xl mx-auto p-12 md:px-0">
+                <div className="max-w-7xl mx-auto p-12 xl:px-0">
                     <div className="space-x-4 text-center">
                         <Link href="/">Home</Link>
                         <Link href="/about">About</Link>
@@ -28,7 +28,7 @@ export default function RootLayout({
 
                 <>{children}</>
 
-                <div className="max-w-7xl mx-auto p-12 md:px-0">
+                <div className="max-w-7xl mx-auto p-12 xl:px-0">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         <p>Nexus is a streetwear brand inspired by Crypto, built on the blockchain.</p>
                         <p></p>

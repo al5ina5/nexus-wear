@@ -2,8 +2,6 @@
 export default function Home() {
     return (
         <>
-
-
             <div className="max-w-7xl mx-auto space-y-12 p-12 md:px-0">
                 <p className="text-2xl">
                     Anim nulla Lorem et ea magna eiusmod ipsum ut est aliquip cupidatat voluptate qui. Fugiat laborum esse irure laborum in. Ullamco officia Lorem exercitation officia. In veniam proident occaecat aliquip velit id et deserunt aliqua ipsum minim. Do eiusmod enim qui reprehenderit eu labore fugiat amet minim id est sunt deserunt. Nulla sunt sint amet consequat adipisicing sint deserunt ea cupidatat eiusmod fugiat elit.
