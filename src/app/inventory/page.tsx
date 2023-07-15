@@ -7,7 +7,7 @@ export default function InventoryPage() {
             </p>
 
             <p className="text-2xl">
-                When you purchase a piece a NEXUS, your purchased item will be added to your inventory. Within your inventory, you're able to redeem (and burn) your purchased item and enter your shipping address to receive your physical item in real life.
+                When you purchase a piece a NEXUS, your purchased item will be added to your inventory. Within your inventory, you're able to redeem your purchased item and enter your shipping address to receive your physical item in real life.
             </p>
         </div>
     </>
