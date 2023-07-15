@@ -1,6 +1,7 @@
 {
     "extends": "next/core-web-vitals", // Indent with 4 spaces
     "rules": {
+        "react/no-unescaped-entities": 0,
         "indent": [
             "error",
             4
