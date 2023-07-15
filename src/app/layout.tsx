@@ -23,6 +23,7 @@ export default function RootLayout({
                         <Link href="/">Home</Link>
                         <Link href="/about">About</Link>
                         <Link href="/catalog">Catalog</Link>
+                        <Link href="/inventory">Inventory</Link>
                     </div>
                     {/* <button className="group-hover:bg-white group-hover:text-neutral-900 group-hover:border-neutral-900 border-2 border-neutral-900 bg-neutral-900 text-white p-3 inline-block">PURCHASE</button> */}
 
@@ -34,7 +35,10 @@ export default function RootLayout({
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         <p>Nexus is a streetwear brand inspired by Crypto, built on the blockchain.</p>
                         <p></p>
-                        <p className="md:text-right">NEXUS WEAR &copy; Est. {new Date().getFullYear()}</p>
+                        <div className="md:text-right">
+                            <p>NEXUS WEAR &copy; Est. {new Date().getFullYear()}</p>
+                            <p><Link className="underline hover:no-underline" href="/terms">Terms and Conditions</Link></p>
+                        </div>
                     </div>
                 </div>
 
