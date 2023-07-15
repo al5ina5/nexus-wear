@@ -18,12 +18,14 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body>
-                <div className="max-w-7xl mx-auto p-12 xl:px-0">
-                    <div className="space-x-4 text-center">
+                <div className="max-w-7xl mx-auto p-12 xl:px-0 flex">
+                    <div className="space-x-4 flex-1">
                         <Link href="/">Home</Link>
                         <Link href="/about">About</Link>
                         <Link href="/catalog">Catalog</Link>
                     </div>
+                    {/* <button className="group-hover:bg-white group-hover:text-neutral-900 group-hover:border-neutral-900 border-2 border-neutral-900 bg-neutral-900 text-white p-3 inline-block">PURCHASE</button> */}
+
                 </div>
 
                 <>{children}</>
@@ -37,6 +39,6 @@ export default function RootLayout({
                 </div>
 
             </body>
-        </html>
+        </html >
     )
 }
