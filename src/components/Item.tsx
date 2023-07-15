@@ -11,7 +11,9 @@ type ItemProps = {
 
 export function Item({ id, name, image, price, totalSupply }: ItemProps) {
     return <div className="border-4 flex flex-col">
-        <img className="grow-0 p-12 w-full" src={image} alt="" />
+        <div>
+            <img className="grow-0 flex-none p-12 w-full" src={image} alt="" />
+        </div>
         <div className="flex-1" />
         <div className="flex gap-6 flex-col md:flex-row bg-white text-neutral-900 p-6">
             <div className="flex-1 space-y-2">
